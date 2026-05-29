@@ -7,7 +7,7 @@ function Introduction() {
   const [hovered, setHovered] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [typedText] = useTypewriter({
-    words: ["all things digital.", "program management.","data science.", "product management.", "data analytics.","digital transformation."],
+    words: ["solution architecture.", "cloud.", "solution engineering.", "product management.", "digital.", "startups."],
     loop: true,
     typeSpeed: 60,
     deleteSpeed: 30
