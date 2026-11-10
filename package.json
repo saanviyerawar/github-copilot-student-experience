@@ -1,6 +1,6 @@
 {
-  "homepage": "http://syerarwarunsw.github.io/portfolio/",
-  "name": "client",
+  "homepage": "https://saanviyerawar.github.io/github-copilot-student-experience/",
+  "name": "github-copilot-student-experience",
   "version": "0.1.0",
   "proxy": "http://localhost:5000",
   "private": true,

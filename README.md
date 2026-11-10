@@ -1,28 +1,201 @@
-<h1 align="left">Hi 👋, I'm Saanvi Yerawar</h1>
+# GitHub Copilot Student Experience
 
-## About Me:
+**A university customer demonstration: turn student coursework into a living CV
+with GitHub Copilot and GitHub Pages.**
 
+The website preserves the original portfolio's mountain hero, parallax
+effects, day/evening themes, navigation, experience cards and project grid.
+The demonstration changes its content, not its visual design.
 
+## What this demo shows
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saanviyerawar/)
+Students can present coursework, technical skills and experience in a
+shareable portfolio, maintain the source in GitHub and use Copilot to help
+make reviewed changes. **Copilot helps author the site; GitHub Pages hosts
+the static build.** The website itself is not a live Copilot chat or an AI
+agent, and it has no Microsoft 365 connection.
 
-## 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
+| University audience | Conversation to lead with |
+| --- | --- |
+| Careers and employability teams | Show project evidence alongside a traditional CV, rather than only listing skills. |
+| Lecturers and course leads | Explain a project's purpose, approach and learning outcomes without publishing restricted coursework solutions. |
+| Student engagement teams | Give students a practical portfolio-building activity they can keep updating. |
+| IT and digital learning teams | Discuss repository access, account boundaries, public content and institutional policies. |
 
-## 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=saanviyerawar&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=saanviyerawar&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=saanviyerawar&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+This is a fictional example, not a claim about a real student's employment,
+enrolment, grades or achievements.
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+## Demo content
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=saanviyerawar&limit=5&theme=dark&combine_all_yearly_contributions=true)
+| Section | Example content |
+| --- | --- |
+| Introduction | A generic student interested in technology and building projects. |
+| Experience | Exactly four Software Intern roles at Company A, B, C and D, with illustrative responsibilities. |
+| Projects | CS1101: programming; CS2101: web development; CS2201: databases; CS3101: data analysis. Course codes and descriptions are fictional. |
+| Contact | Clickable LinkedIn, Gmail and GitHub demo buttons. They contain no links, do not send messages and do not navigate. |
 
----
-[![](https://visitcount.itsvg.in/api?id=saanviyerawar&icon=0&color=0)](https://visitcount.itsvg.in)
+Identifying portraits, employer logos and project screenshots are not
+rendered. Generic labels occupy the original card areas.
 
+## Before meeting a university customer
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+1. Prepare the local site and the repository in a code editor with Copilot
+   signed in. Verify the account you intend to use before screen sharing.
+2. Run the checks below and open the site. Check the Map menu, day/evening
+   toggle, four internship cards, project details and inert contact buttons.
+3. Keep the site and editor in separate tabs or windows. Close personal
+   account pages, notifications, private repositories and unrelated files.
+4. Choose one small live edit and rehearse it. Use fictional content only;
+   never paste a student's CV, grades, email or institutional data into the demo.
+5. If showing a public URL, verify the deployed page contains the current
+   Company A-D and CS1101-style examples. A renamed repository or successful
+   local build does not mean the latest version is deployed.
+
+### Local setup
+
+Requires Node.js 22 or newer, npm and Git. Copilot is needed for the live
+authoring segment, but not to view or run the website.
+
+```powershell
+git clone https://github.com/saanviyerawar/github-copilot-student-experience.git
+Set-Location .\github-copilot-student-experience
+npm ci
+npm test -- --watchAll=false --runInBand
+npm start
+```
+
+If already cloned, use the existing checkout rather than cloning it again.
+Open `http://localhost:3000/github-copilot-student-experience/`.
+For a different port, set `$env:PORT='3100'` before `npm start` and use that port.
+Install dependencies and build before the meeting, not during the presentation.
+
+## Seven-minute customer walkthrough
+
+| Time | Show | Suggested talk track |
+| --- | --- | --- |
+| 0:00-0:45 | Mountain hero and introduction | "Imagine a student turning their coursework into a CV that grows with what they build. All identities and examples here are fictional." |
+| 0:45-1:30 | Map menu and day/evening toggle | "This is a normal website. Students can customise the presentation while keeping their work in a version-controlled repository." |
+| 1:30-2:15 | Four experience cards | "A student can explain their contribution, not just name an employer. Company A-D are placeholders, not actual internship claims." Click different cards to show selection; on mobile, close the details dialog before moving on. |
+| 2:15-3:15 | CS1101-CS3101 project cards | "Coursework can demonstrate programming, web development, databases and analysis." Hover over a card to reveal its description and point out the skill tags. |
+| 3:15-5:15 | Editor, Copilot and local preview | Use the small-edit prompt below. Review the proposed diff, run the checks and show the updated local page. "Copilot assists; the student remains responsible for accuracy and understanding." |
+| 5:15-6:15 | Git diff and publishing steps | "Reviewed changes can be committed and published to the same Pages URL. This connects authoring, source control and a shareable output." Only deploy if agreed in advance. |
+| 6:15-7:00 | Contact buttons and discussion | Click the demo icons to show that they do not leave the page. Ask which student cohort or employability activity would benefit from a portfolio workshop. |
+
+**Close with:** "The outcome is not just a website generated by AI. It is a
+student-owned portfolio, backed by source control, with reviewed evidence of
+what they have learned."
+
+### Live Copilot prompt: one small, safe edit
+
+Use this in Copilot Chat with the repository open:
+
+```text
+In src/pages/home/sections/Projects.jsx, update only the CS1101 Project
+description to explain this fictional task tracker more clearly:
+1. Its purpose: organise a student's study tasks.
+2. Its approach: Python functions, loops and basic data structures.
+3. Its learning outcome: input validation and testing common cases.
+
+Keep the existing layout, animations, themes, project count and skill tags.
+Keep all content fictional. Do not add names, grades, metrics, links,
+dependencies or claims about real coursework. Show me the diff for review.
+```
+
+Review the change before accepting it. Ask the presenter/student to explain
+the code, then run:
+
+```powershell
+npm test -- --watchAll=false --runInBand
+npm run build
+git --no-pager diff --check
+git --no-pager diff -- src/pages/home/sections/Projects.jsx
+```
+
+The local development server refreshes the preview. It does **not** update
+GitHub Pages until a separate deployment succeeds.
+
+### Optional discussion prompt
+
+```text
+Review this fictional student portfolio. Suggest how to explain a course
+project's purpose, contribution and learning outcomes more clearly.
+Do not edit files yet. Do not invent qualifications, dates, grades,
+employment, impact metrics or public evidence links.
+```
+
+If Copilot or sign-in is unavailable, show the prepared local site and the
+source file, explain the proposed edit and continue the walkthrough. Clearly
+describe this as a fallback, not a successful live Copilot interaction.
+
+## Publish to GitHub Pages
+
+Publishing changes public content. Review the wording, assets and repository
+permissions first. Save reviewed source changes in a commit and push them
+through your agreed Git workflow; deployment publishes the build separately.
+
+```powershell
+npm run deploy
+```
+
+The existing `predeploy` script runs `npm run build` automatically, then
+`gh-pages` publishes `build/` to the `gh-pages` branch. In repository
+**Settings > Pages**, choose **Deploy from a branch**, `gh-pages` and `/ (root)`.
+
+The configured destination is:
+<https://saanviyerawar.github.io/github-copilot-student-experience/>
+
+Wait for the Pages deployment to complete and check the URL in a fresh browser
+tab. Verify the title, Company A-D cards, all four course projects and contact
+buttons; do not rely on an older open tab or assume a successful push is a
+successful Pages deployment.
+
+If using a different repository name, update both `homepage` in `package.json`
+and the router `basename` in `src/index.js`, then rebuild. A user/organisation
+root Pages site uses `/` instead of a project-repository subpath.
+
+## Privacy, accounts and university guardrails
+
+- **Presentation anonymity is not account anonymity.** The GitHub owner,
+  commit history and original files identify the source portfolio. Original
+  image files remain in `public/` and are copied into the build even though
+  the page does not display them. Do not describe this repository as fully
+  de-identified. For strict anonymity, prepare a separately reviewed clean
+  repository and asset set before sharing it.
+- **Keep the demo fictional.** Replace examples with verified information
+  only when creating a real CV. Never use real student records in a customer
+  demonstration.
+- **Respect assessment and copyright rules.** Check course policy before
+  publishing assignment code, solutions, marking material, group work or
+  third-party content. A project summary can be shown without its solution.
+- **Use the authorised account.** An EMU Copilot identity and a personal
+  GitHub identity are separate. A shared email does not grant publishing
+  access or permission to move institutional code into a personal repository.
+- **Do not promise entitlements.** Confirm current Copilot eligibility,
+  licensing, organisation policies and Pages availability for the customer's
+  intended accounts. The static demo does not validate any of those.
+- **Do not claim accessibility certification or production readiness.**
+  This preserves an existing React portfolio. Project detail overlays are
+  hover-based; assess keyboard, touch and assistive-technology access before
+  adopting it as an institutional template.
+
+Useful references: [GitHub Pages documentation](https://docs.github.com/en/pages),
+[GitHub Copilot documentation](https://docs.github.com/en/copilot) and
+[GitHub Education](https://education.github.com/).
+
+## Presenter recovery and handoff
+
+| Situation | Action |
+| --- | --- |
+| Local page does not open | Confirm `npm start` is running and use the repository subpath and correct port shown above. |
+| Images or scripts fail on Pages | Check `homepage`, router basename and the deployed `gh-pages` content; rebuild after path changes. |
+| Public page shows old content | Check the deployment result and refresh in a new tab; use the local preview until the current version is verified. |
+| Copilot cannot access the repository | Confirm the intended identity and organisation policy. Do not bypass restrictions by copying private code to another account. |
+| A contact icon appears inactive | Expected: it is deliberately a non-navigating demo button. |
+
+Content is in `src/pages/home/sections/Introduction.jsx`, `WorkExperience.jsx`,
+`Projects.jsx` and `Contact.jsx`. Regression checks are in
+`src/pages/home/sections/StudentDemo.test.jsx`.
+
+After the session, keep only approved edits. For a workshop, agree the audience,
+approved hosting/account model, coursework-sharing rules and a process for
+students to review their own content before publication.

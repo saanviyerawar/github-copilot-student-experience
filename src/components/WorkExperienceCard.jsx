@@ -28,11 +28,9 @@ function WorkExperienceCard({ workExperience, onMouseEnter, onMouseLeave, onClic
     onMouseLeave={onMouseLeave}
     onClick={onClick}
   >
-    <img
-      className="h-[120px] md:h-[160px] w-auto max-h-[120px] max-w-[160px] object-contain"
-      src={`${process.env.PUBLIC_URL}/${workExperienceInformation.image}-Logo.png`}
-      alt={`${workExperienceInformation.company} logo`}
-    />
+    <p className="h-[120px] w-[160px] flex items-center justify-center text-center font-semibold">
+      {workExperienceInformation.company}
+    </p>
     <p className="2xl:text-3xl xl:text-2xl font-semibold text-center">
       {workExperienceInformation.title}
     </p>
