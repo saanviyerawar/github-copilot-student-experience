@@ -1,0 +1,9 @@
+{
+  "short_name": "Student Portfolio",
+  "name": "GitHub Copilot Student Experience",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

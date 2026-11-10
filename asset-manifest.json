@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github-copilot-student-experience/static/css/main.9bc6a96e.css",
+    "main.js": "/github-copilot-student-experience/static/js/main.eaa4bb17.js",
+    "static/js/453.bba12d50.chunk.js": "/github-copilot-student-experience/static/js/453.bba12d50.chunk.js",
+    "index.html": "/github-copilot-student-experience/index.html",
+    "main.9bc6a96e.css.map": "/github-copilot-student-experience/static/css/main.9bc6a96e.css.map",
+    "main.eaa4bb17.js.map": "/github-copilot-student-experience/static/js/main.eaa4bb17.js.map",
+    "453.bba12d50.chunk.js.map": "/github-copilot-student-experience/static/js/453.bba12d50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bc6a96e.css",
+    "static/js/main.eaa4bb17.js"
+  ]
+}
