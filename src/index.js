@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ModeProvider>
-        <BrowserRouter basename='/github-copilot-student-experience'>
+        <BrowserRouter basename='/portfolio'>
           <App />
         </BrowserRouter>
     </ModeProvider>

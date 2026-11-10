@@ -2,7 +2,6 @@ import React, { useState, useRef } from "react";
 import HeaderOne from "../../../components/HeaderOne";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import SectionOne from "../../../components/SectionOne";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 function Introduction() {
   const [hovered, setHovered] = useState(false);
@@ -35,13 +34,13 @@ function Introduction() {
           onMouseLeave={() => setHovered(false)}
           onMouseMove={handleMouseMove}
         >
-          <HeaderOne className="text-6xl md:text-8xl">Hello,<br />I am a <span className="underline">student.</span></HeaderOne>
+          <HeaderOne className="text-6xl md:text-8xl">Hello,<br />I am <span className="underline">Saanvi.</span></HeaderOne>
           {hovered && 
-            <AccountCircleIcon
-              aria-hidden="true"
+            <img
+              src={`${process.env.PUBLIC_URL}/Me.png`}
+              alt="Saanvi"
               className="absolute h-[150px] w-[150px] pointer-events-none rounded-full object-cover opacity-80 translate-x-[-50%] translate-y-[-50%]"
               style={{
-                fontSize: "150px",
                 left: `${mousePosition.x}px`,
                 top: `${mousePosition.y}px`,
               }}
