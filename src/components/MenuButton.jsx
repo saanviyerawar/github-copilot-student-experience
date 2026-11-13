@@ -9,6 +9,7 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import HeaderThree from "./HeaderThree";
 import { Link } from 'react-scroll';
+import { Link as RouterLink } from 'react-router-dom';
 
 function MenuButton() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,6 +54,9 @@ function MenuButton() {
           }}
         >
           <ul className="list-none p-0 m-0 whitespace-nowrap">
+            <li className="p-2 w-48 hover:font-bold">
+              <RouterLink to="/" onClick={() => setIsMenuOpen(false)}>Student studio</RouterLink>
+            </li>
             <Link classname="cursor-pointer" to="introduction" spy={true} smooth={true} offset={50} duration={1000}
               onClick={() => setIsMenuOpen(false)}
             >
@@ -64,7 +68,7 @@ function MenuButton() {
               onClick={() => setIsMenuOpen(false)}
             >
               <li className="p-2 w-48 hover:font-bold flex items-center">
-                <WorkIcon className="mr-2" /> Work Experience
+                <WorkIcon className="mr-2" /> Work experience
               </li>
             </Link>
             <Link classname="cursor-pointer" to="projects" spy={true} smooth={true} offset={50} duration={1000}

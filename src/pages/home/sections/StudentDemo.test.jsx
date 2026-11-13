@@ -18,7 +18,7 @@ test("shows exactly four fictional internships at Company A-D", () => {
   const { container } = renderDemo(<WorkExperience />);
   const experience = container.querySelector("#work-experience");
   expect(experience.querySelectorAll(".clickable")).toHaveLength(4);
-  expect(within(experience).getAllByText("Software Intern")).toHaveLength(4);
+  expect(within(experience).getAllByText("Software intern")).toHaveLength(4);
   for (const company of ["Company A", "Company B", "Company C", "Company D"]) {
     expect(within(experience).getByText(company)).toBeInTheDocument();
   }
@@ -44,7 +44,7 @@ test("shows four fictional course projects without the original branded projects
   const projects = container.querySelector("#projects");
   expect(projects.querySelectorAll(".aspect-square")).toHaveLength(4);
   for (const code of ["CS1101", "CS2101", "CS2201", "CS3101"]) {
-    expect(within(projects).getAllByText(`${code} Project`)).toHaveLength(2);
+    expect(within(projects).getAllByText(`${code} project`)).toHaveLength(2);
   }
   expect(projects).toHaveTextContent("fictional examples");
   expect(projects.querySelectorAll('img[src*="-Project"]')).toHaveLength(0);

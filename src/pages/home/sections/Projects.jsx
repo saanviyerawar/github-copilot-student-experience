@@ -6,10 +6,10 @@ import SectionOne from "../../../components/SectionOne";
 function Projects () {
 
   const projectList = [
-    {title: "CS1101 Project", shadow: true, skills: ["Python"], description: ["Introduction to Programming: a command-line task tracker", "Practised functions, loops and basic data structures", "Added input validation and tests for common scenarios"]},
-    {title: "CS2101 Project", shadow: true, skills: ["React", "Javascript", "HTML", "CSS"], description: ["Web Development: a responsive student study planner", "Built reusable components to organise tasks and deadlines", "Practised accessible forms and responsive layouts"]},
-    {title: "CS2201 Project", shadow: true, skills: ["SQL", "Python"], description: ["Databases: a sample library management system", "Designed tables and relationships for books and loans", "Wrote queries and tested them with fictional records"]},
-    {title: "CS3101 Project", shadow: true, skills: ["Python", "SQL", "PowerBI"], description: ["Data Analysis: an exploratory report using a sample dataset", "Cleaned records and created charts to explain patterns", "Documented the analysis steps and limitations"]}
+    {title: "CS1101 project", shadow: true, skills: ["Python"], description: ["Introduction to programming: a command-line task tracker", "Practised functions, loops and basic data structures", "Added input validation and tests for common scenarios"]},
+    {title: "CS2101 project", shadow: true, skills: ["React", "Javascript", "HTML", "CSS"], description: ["Web development: a responsive student study planner", "Built reusable components to organise tasks and deadlines", "Practised accessible forms and responsive layouts"]},
+    {title: "CS2201 project", shadow: true, skills: ["SQL", "Python"], description: ["Databases: a sample library management system", "Designed tables and relationships for books and loans", "Wrote queries and tested them with fictional records"]},
+    {title: "CS3101 project", shadow: true, skills: ["Python", "SQL", "PowerBI"], description: ["Data analysis: an exploratory report using a sample dataset", "Cleaned records and created charts to explain patterns", "Documented the analysis steps and limitations"]}
   ];
 
   return (

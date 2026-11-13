@@ -2,12 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <script>
+      (() => {
+        const param = new URLSearchParams(window.location.search).get("clawpilotTheme");
+        const theme =
+          param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="An anonymised student portfolio demonstrating GitHub Pages as a CV with GitHub Copilot."
+      content="Student studio: guided coursework, collaboration and careers activities that grow into a learning portfolio. Fictional practice activities, not live AI."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -24,7 +32,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Student Portfolio | GitHub Copilot Student Experience</title>
+    <title>Student studio | GitHub Copilot student experience</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
